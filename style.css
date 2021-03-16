@@ -4,36 +4,15 @@
     padding: 0;
 }
 
-body {
-    overflow-x: hidden;
-}
-
 .container-header {
     background-color: black;
 }
 
-.img-logo-left {
-    width: 150px;
-    height: 100px;
-    display: inline;
-}
-
-.title {
-    display: inline;
-    width: 100%;
-    position: relative;
-    bottom: 40px;
-    left: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    font-size: 25px;
-}
-
-.container-nav {
-    display: inline-block;
-    position: relative;
-    bottom: 40px;
-    left: 600px;
+.img-logo {
+    width: 70%;
+    height: 200px;
+    display: block;
+    margin-left: 15%;
 }
 
 .header {
@@ -41,62 +20,66 @@ body {
     background-color: black;
 }
 
-.nav {
-    display: inline-block;
-
-}
-
-.main-nav {
-    display: inline-block;
-    position: relative;
-}
-
-.main-nav__item {
-    display: inline-block;
-    list-style: none;
-    color: white;
-    padding: 10px;
-}
-
 .left-bar {
     display: inline-block;
     background-color: rgb(94, 17, 17);
-    width: 300px;
-    height: 720px;
+    width: 400px;
+    height: 1200px;
 }
 
 .left-bar__item {
     display: inline-block;
     position: relative;
-    top: 20px;
-    left: 20px;
-    margin-bottom: 20px;
-    width: 250px;
-    height: 150px;
+    top: 30px;
+    left: 30px;
+    margin-bottom: 30px;
+    width: 340px;
+    height: 250px;
+    border-radius: 20px;
     background-color: black;
 }
 
-.main-section {
-    display: inline-block;
-    width: 100%;
+.description {
+    color: white;
+    text-align: center;
+}
+
+main {
     background-color: grey;
 }
 
-p {
+.title-main {
     position: relative;
-    bottom: 700px;
-    left: 320px;
+    bottom: 1180px;
+    width: 75%;
+    left: 420px;
+    border-radius: 10px;
+    background-color: white;
     text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .main-section__item {
     position: relative;
-    bottom: 690px;
-    left: 320px;
+    bottom: 1170px;
+    left: 450px;
     margin-bottom: 20px;
     margin-right: 20px;
     height: 200px;
-    width: 78%;
-    background-color: green;
+    width: 70%;
+    border-radius: 20px;
+    background-color: black;
 }
 
+.movie-img {
+    height: 180px;
+    width: 130px;
+    margin: 10px;
+}
+
+.left-bar-img {
+    width: 320px;
+    height: 200px;
+    margin: 10px;
+}
